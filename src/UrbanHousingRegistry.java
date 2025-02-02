@@ -21,7 +21,6 @@ public class UrbanHousingRegistry {
         building2.addRoom(room3);
 
         while (true) {
-            System.out.println("\n=== City Management Menu ===");
             System.out.println("1. Add Building");
             System.out.println("2. Remove Building");
             System.out.println("3. Search for Building");
