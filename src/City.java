@@ -47,9 +47,9 @@ public class City {
 
     public void displayBuildings() {
         if (buildings.isEmpty()) {
-            System.out.println("🏙 No buildings in " + name + ".");
+            System.out.println("No buildings in " + name + ".");
         } else {
-            System.out.println("\n=== Buildings in " + name + " ===");
+            System.out.println("\nBuildings in " + name + " ===");
             for (Building building : buildings) {
                 System.out.println(building);
             }
